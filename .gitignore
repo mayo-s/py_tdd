@@ -7,3 +7,4 @@
 
 ### Python ###
 /.env
+/py_tdd.egg-info
