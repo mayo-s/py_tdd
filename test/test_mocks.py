@@ -15,7 +15,7 @@ class NerModelMock:
 
 class DocumentMock:
     """
-    Test double for spacy document
+    Test double for spacy Document
     """
 
     def __init__(self, sentence, entities):
@@ -23,6 +23,10 @@ class DocumentMock:
 
 
 class SpanMock:
+    """
+    Test double for spacy Span
+    """
+
     def __init__(self, text, label):
         self.text = text
         self.label_ = label
