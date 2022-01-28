@@ -3,7 +3,6 @@
 
 ## Requirements
 All requirements are listed in `requirements` file
-
 - [Flask](https://flask.palletsprojects.com)
 - [pytest](https://docs.pytest.org)
 - [selenium](https://chromedriver.chromium.org/)
@@ -13,6 +12,9 @@ All requirements are listed in `requirements` file
 - Setup a virtual environment within project folder via `python -m venv .env`  
 - Start virtual environment `source .env/bin/activate`
 - Install requirements via `pip install -r requirements`
-- Install spacy via `python3 -m spacy download en_core_web_sm`
+- Install spacy via `python -m spacy download en_core_web_sm`
 
 - Install directory as package via `pip install -e .`
+
+## Run unittests
+`python -m pytest`  
